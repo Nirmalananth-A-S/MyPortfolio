@@ -1,0 +1,31 @@
+
+# Node.js / React
+node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+frontend/.env.production.local
+npm-debug.log*
+
+# Java / Spring Boot
+backend/target/
+*.class
+*.jar
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+application-local.properties
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Operating System
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
